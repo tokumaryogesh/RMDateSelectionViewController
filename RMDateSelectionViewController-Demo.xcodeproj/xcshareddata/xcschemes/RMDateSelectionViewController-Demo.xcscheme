@@ -22,10 +22,10 @@
          </BuildActionEntry>
          <BuildActionEntry
             buildForTesting = "YES"
-            buildForRunning = "YES"
+            buildForRunning = "NO"
             buildForProfiling = "NO"
             buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
+            buildForAnalyzing = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "CACBDBCB1B371D9500301977"
@@ -49,6 +49,16 @@
                BlueprintIdentifier = "CACBDBCB1B371D9500301977"
                BuildableName = "RMDateSelectionViewController-Demo-Tests.xctest"
                BlueprintName = "RMDateSelectionViewController-Demo-Tests"
+               ReferencedContainer = "container:RMDateSelectionViewController-Demo.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "CA60975C1DC786F9008B59FD"
+               BuildableName = "RMDateSelectionViewController-Demo-UITests.xctest"
+               BlueprintName = "RMDateSelectionViewController-Demo-UITests"
                ReferencedContainer = "container:RMDateSelectionViewController-Demo.xcodeproj">
             </BuildableReference>
          </TestableReference>

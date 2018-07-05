@@ -726,7 +726,7 @@ static NSString *_localizedSelectTitle = @"Select";
         _window.windowLevel = UIWindowLevelStatusBar;
         
         RMNonRotatingDateSelectionViewController *rootViewController = [[RMNonRotatingDateSelectionViewController alloc] init];
-        rootViewController.preferredStatusBarStyle = self.preferredStatusBarStyle;
+        //rootViewController.preferredStatusBarStyle = self.preferredStatusBarStyle;
         rootViewController.statusBarHiddenMode = self.statusBarHiddenMode;
         _window.rootViewController = rootViewController;
     }
